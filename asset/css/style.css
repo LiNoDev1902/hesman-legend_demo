@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Play&display=swap');
+
+/* font-family: 'Chakra Petch', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 1519px;
+    height: 114px;
+    position: relative;
+}
+
+.menu .navbar {
+    position: relative;
+    position: absolute;
+    width: 100%;
+    height: 101px;
+    background: #ffffff;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu .row-2 {
+    margin-top: 101px;
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background: #CFCFCF;
+}
+
+.menu .row-3 {
+    position: absolute;
+    margin-top: 107px;
+    width: 100%;
+    height: 7px;
+    background: #020308;
+}
+
+.nav-li {
+    margin-right: 255px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    padding: 6px 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333333;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 243.8%;
+    text-transform: uppercase;
+}
+
+.joinnow {
+    position: absolute;
+    right: 50px;
+    width: 254px;
+    height: 185px;
+}
+
+.superhero {
+    width: 1519px;
+    height: 800px;
+    background-image: url(/asset/img/Vector.png);
+    background-size: 1519px 900px;
+}
+
+.png {
+    width: 100%;
+    height: 100%;
+    background-image: url(/asset/img/Frame-2.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.hesman img {
+    width: 770px;
+    height: 891px;
+    position: absolute;
+    left: 2px;
+    top: 114px;
+}
+
+.presents {
+    margin-left: 250px;
+    margin-bottom: 80px;
+    width: 258px;
+    height: 128px;
+}
+
+.title {
+    margin-left: 350px;
+    margin-top: -117px;
+}
+
+.comic {
+    margin-left: 450px;
+    margin-top: -98px;
+}
+
+.frame2 {
+    top: 5px;
+}
+
+.subtitle-img {
+    /* right: 15px; */
+    margin-left: 900px;
+    position: absolute;
+    top: 400px;
+    width: 255px;
+    height: 188px;
+}
+
+.text2 {
+    position: absolute;
+    width: 224px;
+    height: 350px;
+    margin-left: 650px;
+}
+
+.text1,
+.text2,
+.text3 {
+    border: #020308 solid 5px;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    display: block;
+}
+
+.text1:hover,
+.text2:hover,
+.text3:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.text3 {
+    width: 224px;
+    height: 350px;
+    margin-left: 900px;
+}
+
+.text1 {
+    position: absolute;
+    width: 224px;
+    height: 350px;
+    margin-left: 400px;
+}
+
+.content {
+    width: 1519px;
+    height: 90px;
+    background-color: #ffffff;
+}
+
+.r1 {
+    width: 100%;
+    height: 6px;
+    background-color: #020308;
+}
+
+.r2 {
+    width: 100%;
+    height: 6px;
+    background-color: #CFCFCF;
+}
+
+.banner-cont {
+    width: 100%;
+    height: 83px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-cont h3 {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 600px;
+}
+
+.temp {
+    width: 1519px;
+    height: 114px;
+}
+
+.About {
+    display: flex;
+    align-items: center;
+    width: 1519px;
+    height: auto;
+    justify-content: safe;
+}
+
+.container-about {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: #ffffff;
+    flex-basis: 30%;
+}
+
+.about-1 {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.about-1 img {
+    height: 800px;
+}
+
+.about-2 {
+    display: flex;
+    align-items: center;
+    flex: 2;
+    padding-right: 10px;
+    justify-content: center;
+}
+
+.about-2 img {
+    /* margin-top: 2px; */
+    height: 780px;
+}
+
+.about-3 {
+    flex: 2;
+}
+
+.about-3 img {
+    height: 800px;
+}
+
+.banner-content {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-content img {
+    width: 40%;
+    height: auto;
+    margin-left: -50px;
+    margin-top: 100px;
+}
+
+.banner-title {
+    position: absolute;
+    flex: 1;
+    width: 300px;
+    height: 100px;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 76%;
+    letter-spacing: -0.05em;
+    margin-top: 50px;
+}
+
+.banner-title h3 {
+    color: #333333;
+    margin-bottom: 7px;
+}
+
+.banner-title span {
+    color: #3B62FF;
+}
+
+.banner-title_2 {
+    flex: 1;
+    position: absolute;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: -0.19rem;
+    color: #333333;
+    margin-top: 200px;
+}
+
+.banner-title_3 {
+    flex: 2;
+    position: absolute;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 27px */
+    letter-spacing: 0.08rem;
+    color: #333333;
+    margin-top: 320px;
+}
+
+.stamp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 600px;
+    width: 500px;
+}
+
+.stamp img {
+    margin-top: 500px;
+    width: 40%;
+    height: auto;
+}
+
+.oman {
+    height: 800px;
+    width: 1519px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.oman img {
+    width: 40%;
+    height: auto;
+    margin-top: 402px;
+    margin-left: 900px;
+}
+
+.oman-legend {
+    display: flex;
+    width: 1519px;
+    height: 800px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.oman-legend .lordman {
+    width: 34%;
+    height: auto;
+    margin-right: 120px;
+    margin-bottom: 315px;
+}
+
+.Our-mission {
+    width: 1519px;
+    height: 800px;
+    background-color: #fffffF;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.our-legend {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.banner-legend {
+    display: flex;
+    position: absolute;
+}
+
+.banner-legend .zine {
+    width: 80%;
+    height: auto;
+    margin-top: 400px;
+}
+
+.banner-legend .huyhung {
+    width: auto;
+    height: 90%;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.our-legend img {
+    /* margin-left: -30px; */
+    /* width: 90%; */
+    height: 800px;
+}
+
+.our-NFT {
+    margin: 0px 20px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-NFT img {
+    width: 100%;
+    height: 800px;
+}
+
+.our-NFT_title {
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.our-NFT_header {
+    margin-bottom: 30px;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 76%;
+    text-align: center;
+    letter-spacing: -0.08em;
+    color: #333333;
+}
+
+.our-NFT_title span {
+    color: #3B62FF;
+}
+
+.our-NFT_content {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 50px; */
+}
+
+.our-NFT_content h2,
+h4 {
+    flex: 1;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: -0.1rem;
+    text-align: center;
+    color: #3B62FF;
+}
+
+.our-NFT_content h4 {
+    color: #333333;
+}
+
+
+/* .our-NFT_content {
+    margin: 50px 0px;
+} */
+
+.our-NFT_content h1 {
+    width: auto;
+    flex: 2;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 82%;
+    text-align: center;
+    color: #3B62FF;
+    padding: 0px 10px;
+}
+
+.our-NFT_content p {
+    flex: 1;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 134.09%;
+    /* or 39px */
+    text-align: center;
+    color: #333333;
+    padding: 10px 0px;
+}
+
+.our-vision {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.our-vision img {
+    width: 99.6%;
+    border-right: 5px solid #020308;
+    height: 800px;
+}
+
+.our-vision_content {
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+}
+
+.our-vision_title {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 76%;
+    letter-spacing: -0.03em;
+    color: #333333;
+}
+
+.our-vision_title p {
+    margin-top: 2px;
+    color: #3B62FF;
+}
+
+.our-vision_content h5 {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 20px;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+.team {
+    width: 1519px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.team-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    height: 400px;
+    padding: 0px 10px 0px 60px;
+}
+
+.team-title .title-header {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 76%;
+    /* or 76px */
+    letter-spacing: -0.05em;
+    color: #333333;
+}
+
+.team-title .title-header p {
+    color: #3B62FF;
+}
+
+.team-title h5 {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 9px;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+.team-slider {
+    position: relative;
+    width: 70%;
+    height: 700px;
+    background-color: #fffffF;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+
+.container-slider {
+    width: 100%;
+    height: 600px;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* overflow: hidden; */
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -ms-transition: left 2s;
+    -o-transition: left 2s;
+    margin-left: 100px;
+}
+
+.container-img {
+    display: flex;
+    float: left;
+    margin: 0px -100px 0px;
+}
+
+.img-slide {
+    width: 90%;
+    height: 600px;
+    transition: .2s;
+    filter: saturate(5%);
+    -webkit-filter: saturate(5%);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-slide:hover {
+    cursor: pointer;
+    width: 100%;
+    height: 600px;
+    transform: scale(1.1);
+    filter: none;
+    -webkit-filter: none;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.sub-slide {
+    position: absolute;
+    width: 200px;
+    margin-top: 400px;
+    margin-left: 70px;
+}
+
+.sub-row {
+    width: 1519px;
+    height: 87px;
+    background-color: #FFFFFF;
+    border-bottom: 5px solid #020308;
+    border-top: 5px solid #020308;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-row_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sub-row_content p {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 243.8%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1519px;
+    height: 800px;
+    background-color: aquamarine;
+}
+
+.gallery-title {
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    background-color: #3B62FF;
+}
+
+.gallery-container {
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    background-color: brown;
+}
